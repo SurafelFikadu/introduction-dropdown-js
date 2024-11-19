@@ -235,7 +235,7 @@ button.register {
         min-width: 250px;
         min-height: 120vh;
         transform: translateX(40vh);
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .header-1>div>img {

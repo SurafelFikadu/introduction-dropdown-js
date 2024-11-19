@@ -24,12 +24,15 @@ companyHover.onmouseout = () => {
 const headerMain = document.getElementById("header-main");
 const closeBtn = document.getElementById("close-btn");
 const menuBtn = document.getElementById("menu-btn");
+const body = document.querySelector('body')
 
 
 closeBtn.onclick = (() => {
     headerMain.style.transform = "translateX(40vh)";
+    body.style.background = "hsl(0, 0%, 98%)"
 })
 
 menuBtn.onclick = () => {
     headerMain.style.transform = "translateX(0vh)";
+    body.style.background = "hsl(0, 0%, 8%, 0.7)";
 }
